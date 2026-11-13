@@ -4,15 +4,7 @@
 
 Cursor inspired theme for [Zed](https://zed.dev).
 
-## Screenshot
-
-### Light
-
-![Light](screenshots/light.png)
-
-### Dark
-
-![Dark](screenshots/dark.png)
+![Rust syntax highlighting in Cursor Light and Cursor Dark](assets/preview.png)
 
 ## Usage
 
