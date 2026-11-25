@@ -1,0 +1,63 @@
+"ui.background" = { bg = "#181818" }
+"ui.text" = { fg = "#d4d4d4" }
+"ui.text.focus" = { fg = "#82d2ce" }
+"ui.text.inactive" = { fg = "#898989" }
+"ui.gutter" = { bg = "#181818" }
+"ui.linenr" = { fg = "#4d4d4d" }
+"ui.linenr.selected" = { fg = "#d4d4d4" }
+"ui.cursor" = { fg = "#181818", bg = "#d4d4d4" }
+"ui.cursor.primary" = { fg = "#181818", bg = "#82d2ce" }
+"ui.cursor.match" = { fg = "#82d2ce", bg = "#2e2e2e" }
+"ui.cursorline.primary" = { bg = "#262626" }
+"ui.selection" = { bg = "#2e2e2e" }
+"ui.selection.primary" = { bg = "#2e2e2e" }
+"ui.statusline" = { fg = "#d4d4d4", bg = "#141414" }
+"ui.statusline.inactive" = { fg = "#898989", bg = "#141414" }
+"ui.bufferline" = { fg = "#898989", bg = "#141414" }
+"ui.bufferline.active" = { fg = "#d4d4d4", bg = "#181818" }
+"ui.popup" = { fg = "#d4d4d4", bg = "#1f1f1f" }
+"ui.window" = { fg = "#303030" }
+"ui.menu" = { fg = "#d4d4d4", bg = "#1f1f1f" }
+"ui.menu.selected" = { fg = "#d4d4d4", bg = "#2e2e2e" }
+"ui.virtual.whitespace" = { fg = "#4d4d4d" }
+"ui.virtual.indent-guide" = { fg = "#2a2a2a" }
+"ui.virtual.inlay-hint" = { fg = "#4d7573" }
+"diff.plus" = { fg = "#a3be8c" }
+"diff.delta" = { fg = "#ebc88d" }
+"diff.minus" = { fg = "#e06c75" }
+"error" = { fg = "#e06c75" }
+"warning" = { fg = "#ebc88d" }
+"info" = { fg = "#82d2ce" }
+"hint" = { fg = "#4d7573" }
+"attribute" = "#aaa0fa"
+"comment" = { fg = "#636363", modifiers = ["italic"] }
+"comment.documentation" = { fg = "#636363", modifiers = ["italic"] }
+"constant" = "#82d2ce"
+"constant.builtin.boolean" = "#82d2ce"
+"constant.numeric" = "#ebc88d"
+"constructor" = "#87c3ff"
+"function" = "#efb080"
+"function.builtin" = "#82d2ce"
+"function.macro" = "#f8c762"
+"keyword" = "#82d2ce"
+"label" = "#efb080"
+"namespace" = "#cccccc"
+"operator" = "#d6d6dd"
+"punctuation" = "#a4a4a4"
+"punctuation.bracket" = "#f8c762"
+"punctuation.delimiter" = "#d6d6dd"
+"string" = "#e394dc"
+"string.regexp" = "#d6d6dd"
+"constant.character.escape" = "#d6d6dd"
+"tag" = "#87c3ff"
+"type" = "#efb080"
+"type.builtin" = "#efb080"
+"type.enum.variant" = "#efb080"
+"variable" = "#d6d6dd"
+"variable.builtin" = "#cc7c8a"
+"variable.parameter" = "#d6d6dd"
+"variable.other.member" = "#aaa0fa"
+"markup.heading" = { fg = "#efb080", modifiers = ["bold"] }
+"markup.bold" = { fg = "#f8c762", modifiers = ["bold"] }
+"markup.italic" = { fg = "#82d2ce", modifiers = ["italic"] }
+"markup.link.url" = "#82d2ce"

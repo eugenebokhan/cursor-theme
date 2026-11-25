@@ -1,0 +1,37 @@
+{
+  "name": "cursor-theme",
+  "displayName": "Cursor Theme",
+  "description": "A Cursor-inspired light and dark palette for editors and terminals.",
+  "version": "0.2.0",
+  "publisher": "eugenebokhan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eugenebokhan/cursor-theme.git"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "scripts": {
+    "build": "bun scripts/theme-tools.ts build",
+    "check": "bun scripts/theme-tools.ts check",
+    "preview": "bun scripts/theme-tools.ts preview"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cursor Light",
+        "uiTheme": "vs",
+        "path": "./ports/vscode/cursor-light-color-theme.json"
+      },
+      {
+        "label": "Cursor Dark",
+        "uiTheme": "vs-dark",
+        "path": "./ports/vscode/cursor-dark-color-theme.json"
+      }
+    ]
+  }
+}
